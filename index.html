@@ -1,1 +1,35 @@
-Hello World
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+			swfobject.registerObject("flash-app", "11.5.0", "expressInstall.swf");
+		</script>
+		<STYLE type="text/css">
+			body { display:table; }
+			html,body,div,object.swf { height:100%; width:100%; }
+		</STYLE>
+	</head>
+	<body display"table">
+		<div>
+			<object class="swf" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" id="flash-app">
+				<param name="movie" value="openttd.swf" />
+				<param name="menu" value="false" />
+				<param name="allowscriptaccess" value="always" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="openttd.swf" width="100%" height="100%">
+					<param name="menu" value="false" />
+					<param name="allowscriptaccess" value="always" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflashplayer">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+	</body>
+</html>
